@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet  name="css/bootstrap.min.css"/>
+        <h:outputStylesheet  name="css/style.css"/>
+       
+
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"></link>
+        <title>Global Insurance</title>
+    </h:head>
+
+       
+        <!-- Begin page -->
+       
+        <h:body styleClass="fixed-left" >
+          <div id="wrapper">
+               <div id="top">
+                    <ui:insert name="top">
+                       <div class="topbar">
+
+                         
+                       <div class="topbar-left">
+                           <div class="text-center">
+                               <a href="index.html" class="logo"><i class="icon-magnet icon-c-logo"></i><span>global Insurance</span></a>
+                                <!--Image Logo here--> 
+                               <a href="index.html" class="logo">
+                                   <!--<i class="icon-c-logo"> <img src="assets/images/logo_sm.png" height="42"/> </i>-->
+                                   <!--<span><h:graphicImage name="images/logo1.jpg" height="100" ></h:graphicImage> </span>-->
+                               </a>
+                           </div>
+                       </div>
+  
+                       <nav class="navbar-custom">
+                           <ul  class="list-inline float-right mb-0">
+                               <li class="list-inline-item dropdown notification-list">
+                                   <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
+                                      aria-haspopup="false" aria-expanded="false">
+                                       <i class="fa fa-bell noti-icon"></i>
+                                       <!--<span class="badge badge-pink noti-icon-badge">4</span>-->
+                                   </a>
+                                   <div class="dropdown-menu dropdown-menu-right dropdown-arrow dropdown-lg" aria-labelledby="Preview">
+                                       
+                                       <div class="dropdown-item noti-title">
+                                           <h5><span class="badge badge-danger float-right">5</span>Notification</h5>
+                                       </div>
+
+                                        
+                                       <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                           <div class="notify-icon bg-success"><i class="icon-bubble"></i></div>
+                                           <p class="notify-details">Robert S. Taylor commented on Admin<small class="text-muted">1 min ago</small></p>
+                                       </a>
+
+                                        
+                                       <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                           <div class="notify-icon bg-info"><i class="icon-user"></i></div>
+                                           <p class="notify-details">New user registered.<small class="text-muted">1 min ago</small></p>
+                                       </a>
+
+                                       <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                           <div class="notify-icon bg-danger"><i class="icon-like"></i></div>
+                                           <p class="notify-details">Carlos Crouch liked <b>Admin</b><small class="text-muted">1 min ago</small></p>
+                                       </a>
+
+                                        
+                                       <a href="javascript:void(0);" class="dropdown-item notify-item notify-all">
+                                           View All
+                                       </a>
+
+                                   </div>
+                               </li>
+
+                               <li class="list-inline-item notification-list">
+                                   <a class="nav-link waves-light waves-effect" href="#" id="btn-fullscreen">
+                                       <i class="fa fa-expand noti-icon"></i>
+                                   </a>
+                               </li>
+
+                               <li class="list-inline-item notification-list">
+                                   <a class="nav-link right-bar-toggle waves-light waves-effect" href="#">
+                                       <i class="fa fa-inbox noti-icon"></i>
+                                   </a>
+                               </li>
+
+                               <li class="list-inline-item dropdown notification-list">
+                                   <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
+                                      aria-haspopup="false" aria-expanded="false">
+                                       <i class="fa fa-user-circle-o noti-icon"></i>
+                                       <!--<img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle">-->
+                                   </a>
+                                   <div class="dropdown-menu dropdown-menu-right profile-dropdown " aria-labelledby="Preview">
+                                        
+                                       <div class="dropdown-item noti-title">
+                                           <h5 class="text-overflow"><small>Welcome ! John</small> </h5>
+                                       </div>
+
+                                        
+                                       <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                           <i class="md md-account-circle"></i> <span>Profile</span>
+                                       </a>
+
+                                       
+                                       <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                           <i class="md md-settings"></i> <span>Settings</span>
+                                       </a>
+
+                                       
+                                       <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                           <i class="md md-lock-open"></i> <span>Lock Screen</span>
+                                       </a>
+
+                                      
+                                       <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                           <i class="md md-settings-power"></i> <span>Logout</span>
+                                       </a>
+
+                                   </div>
+                               </li>
+
+                           </ul>
+
+                           <ul class="list-inline menu-left mb-0">
+                               <li class="float-left">
+                                   <button class="button-menu-mobile open-left waves-light waves-effect">
+                                       <i class="fa fa-align-justify"></i>
+                                   </button>
+                               </li>
+                               <li class="hide-phone app-search">
+                                   <h:form role="search" class="">
+                                       <!--s<input type="text" placeholder="Search..." class="form-control">-->
+                                       <h:inputText a:placeholder="Search"  id="search" title="Search" style="background-color:#add6d4 !important;font-size: 16px; " styleClass="form-control"></h:inputText>
+                                       <a href=""><i class="fa fa-search"></i></a>
+                                   </h:form>
+                               </li>
+                           </ul>
+
+                       </nav>
+
+                   </div>
+
+
+                   </ui:insert>
+                </div>
+                <div>
+                   <div id="left">
+                        <ui:insert name="left">
+                            <div class="left side-menu">
+                                <div class="sidebar-inner slimscrollleft">
+                                   
+                                    <div id="sidebar-menu">
+                                        <ul>
+                                            <li class="text-muted menu-title">NAVIGATION</li>
+                                         <li>
+                                            <a href="" class="waves-effect"><i class="fa fa-home"></i> <span> DASHBOARD </span></a>    
+                                         </li>
+                                            <li>
+                                            <a href="" class="waves-effect"><i class="fa fa-user-secret"></i> <span> AGENT </span></a>    
+                                         </li> 
+                                         <li>
+                                            <a href="" class="waves-effect"><i class="fa fa-building-o"></i> <span> COMPANY </span></a>    
+                                         </li>
+                                          <li>
+                                            <a href="" class="waves-effect"><i class="fa fa-user"></i> <span> PARTY </span></a>    
+                                         </li>
+                                             <li>
+                                            <a href="" class="waves-effect"><i class="fa fa-book"></i> <span> POLICY </span></a>    
+                                         </li> 
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </ui:insert>
+                    </div>
+                    <div id="content" class="left_content">
+                        <ui:insert name="content">
+                           
+                            <!--<h:message id="message" for="search"></h:message>-->
+                        </ui:insert>
+                    </div>
+                </div>
+          </div>
+    
+           <script>
+            var resizefunc = [];
+        </script>
+    <h:outputScript  name="js/jquery.min.js" />    
+    <h:outputScript  name="js/popper.min.js" />
+    <h:outputScript  name="js/detect.js" />
+    
+    <h:outputScript  name="js/bootstrap.min.js" />
+    <h:outputScript  name="js/waves.js" />
+    <h:outputScript  name="js/wow.min.js" />
+    <h:outputScript  name="js/fastclick.js" />
+    <h:outputScript  name="js/jquery.slimscroll.js" />
+    <h:outputScript  name="js/jquery.core.js" /> 
+    <h:outputScript  name="js/jquery.app.js" />    
+ 
+
+            
+        </h:body>
+        
+    
+
+    
+
+</html>
